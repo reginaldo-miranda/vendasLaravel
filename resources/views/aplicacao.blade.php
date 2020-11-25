@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{@extends('layouts.app') 
 
 @section('conteudo')
     <p>estou aqui</p>

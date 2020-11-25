@@ -17,12 +17,22 @@ class usuariosController extends Controller
       // verificar se existe sessao
       if(!Session::has('login')){
         // senao existe apresenta frm login
-        return $this->frmLogin();
+         return $this->frmLogin();
+        
       }else{
-        return view('aplicacao');
+        //return view('aplicacao');
+        return view('usuario_frm_menu');
       }
 
     }
+
+    // --------------formulario menu ------------------
+
+    public function frmMenu(){
+       return view('usuario_frm_menu');
+    }
+
+
     //---------------------------------------
 
 
