@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appMenu')
 
 {{-- formulario de menu --}}
 
@@ -20,10 +20,10 @@
              <div class>
 
              </div>
-
+{{-- 
              <div class="text-center">
                   <button type="submit" class="btn btn-primary">Criar nova conta</button>
-             </div>
+             </div>  --}}
             
                  {{-- voltar ao inicio --}}
              <div class="text-center margin-top-20">
