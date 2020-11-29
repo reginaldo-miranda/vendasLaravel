@@ -138,7 +138,7 @@ class usuariosController extends Controller
             // validacao dos campos
 
             $this->validate($request,[
-              'text_usuario' => 'required|between:3,30|alpha_num',
+              'text_usuario' => 'required',
               'text_senha' => 'required|between:6,15',
               'text_senha_repetida' => 'required|same:text_senha',
               'text_email' => 'required|email', 

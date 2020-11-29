@@ -6,7 +6,7 @@
 
    <div class="row"> 
   
-    <div class="col-md-4 col-md-4 offset-4 col-sm-8 offset-2 col-xs-12">
+    <div class="col-md-12 col-md-4 offset-4 col-sm-8 offset-2 col-xs-12">
       {{-- apresentacao de erros de validacao --}}
 
         @include('inc.erros')
@@ -17,9 +17,7 @@
 
              {{ csrf_field() }}
              <h1>ca estou</h1>
-             <div class>
-
-             </div>
+            @include('menus.menu')
 {{-- 
              <div class="text-center">
                   <button type="submit" class="btn btn-primary">Criar nova conta</button>
