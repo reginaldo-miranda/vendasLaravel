@@ -30,7 +30,7 @@ Route::get('usuario_logout', 'usuariosController@logout');
 Route::get('/usuario_frm_recuperar_senha','usuariosController@frmRecupararSenha');
 Route::post('/usuario_executar_recuperar_senha','usuariosController@executarRecuperarSenha');
 
-Route::get('/usuario_email_enviado','usuariosController@emeailenviado');
+Route::get('/usuario_email_enviado','usuariosController@emailenviado');
 
 //--------------------criar conta -------------------------------------------------------
 
