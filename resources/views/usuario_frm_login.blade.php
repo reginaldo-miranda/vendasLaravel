@@ -32,10 +32,10 @@
 
              </div>  
 
-             <div class="text-center">
+           {{--   <div class="text-center">
                <a href="/usuario_frm_criar_nova_conta">Criar nova conta</a>
 
-             </div> 
+             </div> --}}
          
          </form>
 
